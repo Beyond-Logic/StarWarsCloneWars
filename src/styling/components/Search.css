@@ -1,0 +1,30 @@
+.searchbox {
+  padding-right: 50px !important;
+  margin-top: -20px;
+}
+
+.searchbox input {
+  background-color: rgba(250, 250, 250, 1);
+}
+
+.input-group
+  > :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+  margin-left: -1px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-left: none !important;
+  border-top-color: #ced4da !important;
+  background: #fafafa !important;
+  border-bottom-color: #ced4da !important;
+  border-right-color: #ced4da !important;
+}
+
+@media only screen and (max-width: 992px) {
+  .searchbox {
+    padding-right: 0px !important;
+    margin-top: -20px;
+    display: block;
+    width: 80% !important;
+    margin: auto;
+  }
+}

@@ -1,0 +1,20 @@
+.container-dashboard {
+  background-color: #f6f6f6;
+  width: 100% !important;
+  padding: 0 !important;
+}
+
+.menu-side {
+  background-color: #fff;
+  padding-top: 20px;
+}
+
+.menu-main-main {
+  background-color: #fff;
+}
+
+.main-card {
+  background-color: #f6f6f6;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
