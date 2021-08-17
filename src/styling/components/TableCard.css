@@ -1,0 +1,46 @@
+.table-card {
+  background: #fff;
+}
+
+.table-card .table > :not(caption) > * > * {
+  border-bottom-width: 0px !important;
+}
+
+.table-card a {
+  color: rgba(23, 137, 36, 1);
+  text-decoration: none;
+}
+.table-card td {
+  font-size: 14px;
+  padding-top: 20px !important;
+}
+
+.table-card img {
+  padding-right: 10px !important;
+  width: 30px;
+}
+.table-card th {
+  color: #a3abb7;
+  font-weight: 400;
+}
+
+.table-card .row {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@media only screen and (max-width: 1245px) {
+  .table-card td {
+    font-size: 12px;
+    padding-top: 20px !important;
+  }
+
+  .table-card img {
+    display: none;
+  }
+  .table-card th {
+    color: #a3abb7;
+    font-size: 12px;
+    font-weight: 400;
+  }
+}
