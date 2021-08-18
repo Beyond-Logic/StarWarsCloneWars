@@ -62,7 +62,9 @@ function MenuMain({ title }) {
         <Navbar.Toggle />
         <Navbar.Collapse className="justify-content-end">
           <Navbar.Text>
-            <i class="far fa-bell"></i>
+            <i class="far fa-bell position-relative m-3">
+              <span class="position-absolute top-0 start-100 translate-middle p-1 bg-danger border border-light rounded-circle"></span>
+            </i>
             <i class="far fa-comment-alt"></i>
             <Image src={require("../assets/images.png").default} className="" />
           </Navbar.Text>
