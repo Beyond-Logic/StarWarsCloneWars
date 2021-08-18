@@ -1,14 +1,11 @@
 import React, { useEffect } from "react";
 import { Col, Container, Row, Table } from "react-bootstrap";
-import Card from "../components/Card";
 import MenuMain from "../components/MenuMain";
 import MenuSide from "../components/MenuSide";
 import Pagination from "../components/Pagination";
 import baseUrl from "../api/baseUrl";
 import endpoints from "../api/endpoints";
 import Search from "../components/Search";
-import TableCard from "../components/TableCard";
-
 import "../styling/pages/DashBoard.css";
 import "../styling/pages/Pages.css";
 import axios from "axios";

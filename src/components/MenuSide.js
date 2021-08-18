@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Image, Nav } from "react-bootstrap";
+import { Image } from "react-bootstrap";
 import { Link, NavLink } from "react-router-dom";
 import "../styling/components/MenuSide.css";
 
@@ -44,7 +44,7 @@ function MenuSide() {
           </li>
           <li class="nav-item">
             <NavLink to="/vechicles" activeClassName="active" class="nav-link">
-              <Image src={require("../assets/menu.svg").default} className="" />
+              <i class="fas fa-car"></i>
               Vechicle
             </NavLink>
           </li>
