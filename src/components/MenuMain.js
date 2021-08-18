@@ -33,29 +33,29 @@ function MenuMain({ title }) {
           </button>
           <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
             <li>
-              <a class="dropdown-item" href="#">
+              <Link to="/dashboard" className="dropdown-item">
                 Dashboard
-              </a>
+              </Link>
             </li>
             <li>
-              <a class="dropdown-item" href="#">
+              <Link to="/starships" className="dropdown-item">
                 StarShip
-              </a>
+              </Link>
             </li>
             <li>
-              <a class="dropdown-item" href="#">
+              <Link to="/people" className="dropdown-item">
                 People
-              </a>
+              </Link>
             </li>
             <li>
-              <a class="dropdown-item" href="#">
+              <Link to="/vechicles" className="dropdown-item">
                 Vechicles
-              </a>
+              </Link>
             </li>
             <li>
-              <a class="dropdown-item" href="#">
+              <Link to="/species" className="dropdown-item">
                 Species
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
